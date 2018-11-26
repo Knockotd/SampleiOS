@@ -105,7 +105,19 @@ class ViewController: UIViewController {
         userDefaults = UserDefaults.standard
         
     }
-    
+    @IBAction func foodpoisoningAPI(_ sender: Any) {
+        //하위 뷰 컨트롤러 객체 만들기
+        let foodPoisoningController = self.storyboard?.instantiateViewController(withIdentifier: "FoodPoisoningController")
+        
+        //네비게이션 컨트롤러가 있을 때는 바로 푸시를 하면 됩니다.
+        //없을 때는 네비게이션 컨트롤러를 만들고 네비게이션 컨트롤러를 present로 출력
+        //뒤로 버튼을 새로 만들기
+        
+        self.navigationItem.backBarButtonItem = UIBarButtonItem.init(title: "메인화면", style: .done, target: nil, action: nil)
+        //네비게이션으로 이동
+        self.navigationController?.pushViewController(foodPoisoningController!, animated: true)
+    }
+
     override func viewWillAppear(_ animated: Bool) {
         //상위 클래스의 메소드를 호출
         super.viewWillAppear(animated)

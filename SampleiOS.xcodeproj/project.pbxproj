@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA09C7D921AB9AFC00C043F4 /* Foundation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA09C7D821AB9AFC00C043F4 /* Foundation.swift */; };
 		AA4CEEBA21A4E93100C17DB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4CEEB921A4E93100C17DB6 /* AppDelegate.swift */; };
 		AA4CEEBC21A4E93100C17DB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4CEEBB21A4E93100C17DB6 /* ViewController.swift */; };
 		AA4CEEBF21A4E93200C17DB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4CEEBD21A4E93200C17DB6 /* Main.storyboard */; };
@@ -17,6 +18,8 @@
 		AA4CEED721A4E99100C17DB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4CEED521A4E99100C17DB6 /* Main.storyboard */; };
 		AA4CEED921A4E99E00C17DB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA4CEED821A4E99E00C17DB6 /* Assets.xcassets */; };
 		AA4CEEDC21A4E99E00C17DB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA4CEEDA21A4E99E00C17DB6 /* LaunchScreen.storyboard */; };
+		AAEBE8C921ABA6120087CD91 /* FoodPoisoningController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEBE8C821ABA6120087CD91 /* FoodPoisoningController.swift */; };
+		AAEBE8CB21ABA71A0087CD91 /* FoodPoisoningCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAEBE8CA21ABA71A0087CD91 /* FoodPoisoningCell.swift */; };
 		CF610CB1A2F61FF0D14BC8ED /* Pods_PersonManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D6BA3CB4D51F8DFA0A1CF0 /* Pods_PersonManagement.framework */; };
 		D112EBB751517B045729BE7D /* Pods_SampleiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E19DB0D6DA2C2FE9EC39EBE9 /* Pods_SampleiOS.framework */; };
 /* End PBXBuildFile section */
@@ -24,6 +27,7 @@
 /* Begin PBXFileReference section */
 		57184A9CDA39A4D746455A0C /* Pods-SampleiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleiOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-SampleiOS/Pods-SampleiOS.release.xcconfig"; sourceTree = "<group>"; };
 		96D6BA3CB4D51F8DFA0A1CF0 /* Pods_PersonManagement.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PersonManagement.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA09C7D821AB9AFC00C043F4 /* Foundation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foundation.swift; sourceTree = "<group>"; };
 		AA4CEEB621A4E93100C17DB6 /* SampleiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA4CEEB921A4E93100C17DB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AA4CEEBB21A4E93100C17DB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +42,8 @@
 		AA4CEED821A4E99E00C17DB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA4CEEDB21A4E99E00C17DB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA4CEEDD21A4E99E00C17DB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAEBE8C821ABA6120087CD91 /* FoodPoisoningController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPoisoningController.swift; sourceTree = "<group>"; };
+		AAEBE8CA21ABA71A0087CD91 /* FoodPoisoningCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodPoisoningCell.swift; sourceTree = "<group>"; };
 		BD6FDB88468BF16B3BCC89AA /* Pods-PersonManagement.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonManagement.release.xcconfig"; path = "Pods/Target Support Files/Pods-PersonManagement/Pods-PersonManagement.release.xcconfig"; sourceTree = "<group>"; };
 		E19DB0D6DA2C2FE9EC39EBE9 /* Pods_SampleiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2D05A7D85D13A83570EDBCF /* Pods-PersonManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PersonManagement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PersonManagement/Pods-PersonManagement.debug.xcconfig"; sourceTree = "<group>"; };
@@ -117,6 +123,9 @@
 				AA4CEED821A4E99E00C17DB6 /* Assets.xcassets */,
 				AA4CEEDA21A4E99E00C17DB6 /* LaunchScreen.storyboard */,
 				AA4CEEDD21A4E99E00C17DB6 /* Info.plist */,
+				AA09C7D821AB9AFC00C043F4 /* Foundation.swift */,
+				AAEBE8C821ABA6120087CD91 /* FoodPoisoningController.swift */,
+				AAEBE8CA21ABA71A0087CD91 /* FoodPoisoningCell.swift */,
 			);
 			path = PersonManagement;
 			sourceTree = "<group>";
@@ -313,7 +322,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAEBE8CB21ABA71A0087CD91 /* FoodPoisoningCell.swift in Sources */,
+				AAEBE8C921ABA6120087CD91 /* FoodPoisoningController.swift in Sources */,
 				AA4CEED421A4E99100C17DB6 /* ViewController.swift in Sources */,
+				AA09C7D921AB9AFC00C043F4 /* Foundation.swift in Sources */,
 				AA4CEED221A4E99100C17DB6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
